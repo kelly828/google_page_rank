@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PageRank</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typo.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/d3.min.js"></script>
+</head>
+<body>
+<h1><strong class="white">PageRank Visualization</strong></h1>
+<p><img width="16" src="https://avatars3.githubusercontent.com/u/13844740?s=400&v=4" alt=""><a href="https://github.com/elleryqueenhomels/google_page_rank">Power by Wengao Ye</a></p>
+<div class="content" id="content">
+    <form>
+        <input type="text" class="searchbar" name="query" id="query" value="">
+        <button class="searchbtn" type="submit">Search</button>
+    </form>
+</div>
+
+<svg width="1024" height="640"></svg>
+
+<ol>
+    <li>Black node represents the web page you select</li>
+    <li>The thickness of the segment represents the value of PageRank</li>
+    <li>Click a node will enter this node and display relations between it and other nodes</li>
+</ol>
+<script src="js/main.js"></script>
+</body>
+</html>
