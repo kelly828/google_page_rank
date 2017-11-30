@@ -2,7 +2,7 @@
 
 Using MapReduce to implement and visualize Google PageRank Algorithm
 
-[![Watch Demo Video]()](https://youtu.be/VIeWJLxWAqc)
+[![Watch Full Demo Video](https://user-images.githubusercontent.com/13844740/33435971-9a76d7fc-d61e-11e7-9b98-ddcd5d341aec.gif)](https://youtu.be/VIeWJLxWAqc)
 
 <object width="1440" height="900">
   <param name="movie" value="https://youtu.be/VIeWJLxWAqc" />
