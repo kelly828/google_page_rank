@@ -11,8 +11,8 @@ Using MapReduce to implement and visualize Google PageRank Algorithm
 
 ## Description
 This is an implementation for [The PageRank Citation Ranking: Bringing Order to the Web](http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf).<br/>Using MapReduce to handle multiplication of very large matrices and optimize computation.<br/>
-- Step 1: Use <b>adjacency matrix</b> to construct/describe relations between any two of all web pages, which is called <b>Transition Matrix</b>. Then based on iterative computations, we use the <b>Transition Matrix</b> to compute the <b>PageRank</b> of each web page util the <b>PageRank Matrix</b> converged. NOTE: we use <b>BETA</b> to handle two edge cases - <b>Dead Ends</b> and <b>Spider Traps</b>.
-- step 2: Use the converged <b>PageRank Matrix</b> we got from step 1 to rank all web pages and visulize the results.
+- <b>Step 1:</b> Use <b>adjacency matrix</b> to construct/describe relations between any two of all web pages, which is called <b>Transition Matrix</b>. Then based on iterative computations, we use the <b>Transition Matrix</b> to compute the <b>PageRank</b> of each web page util the <b>PageRank Matrix</b> converged. NOTE: we use <b>BETA</b> to handle two edge cases - <b>Dead Ends</b> and <b>Spider Traps</b>.
+- <b>Step 2:</b> Use the converged <b>PageRank Matrix</b> we got from step 1 to rank all web pages and visulize the results.
 
 ## Prerequisites
 The test data of this repo which is put in the folder `dataset` comes from [here](https://www.limfinity.com/ir/).<br/>You can use any web pages data as you want.
